@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: arial;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Newsreader', 'serif';
+    font-size: 35px;
+}
+
+h3{
+    font-family: 'Newsreader', 'serif' ;
+    color: #402718;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 2px 2px 2px 2px; 
+    
+}
+
+ nav a:hover{
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    font-size: 20px;
+    border-radius: 2px;
+   
+    
+}
+
+img{
+    border-radius: 50%;
+    padding: 3%;
+}
+
+nav{
+    text-align: center;
+    align-content: space-between;
+}
+#hero{
+    padding-top: 2%;
+    background: url('./fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bandeau{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    background-color: rgba(255,255,255,0.3)
+}
+
+#contenu{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7%;
+    color:#402718;
+    font-size: 25px;
+    font-family: 'Newsreader', serif;
+}
+
+#apropos{
+    text-align: center;
+    font-family: 'Newsreader', 'serif';
+    font-size: 18px;
+}
+
+
+footer{
+    background-color: #BF9E80;
+}
+
+footer a:hover{
+    color: white;
+}
+
+#contact{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.contact_text{
+   text-align: center;
+   padding:10px;
+}
+
+#social{
+    background-color: #BF9E80;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.social_icon a{
+    color: white;
+    padding: 40px;
+
+}
+
